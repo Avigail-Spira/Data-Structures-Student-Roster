@@ -6,8 +6,9 @@
 	protected StudentNode first;
 	protected StudentNode last;
 	protected int length;
-	
-	public LinkedStudentList() { //Constructor that instantiates a dummy node at the front of the linked list
+		
+	//Constructor that instantiates a dummy node at the front of the linked list
+	public LinkedStudentList() { 
 		first = new StudentNode(null);
 		last = first;
 		length = 0;
